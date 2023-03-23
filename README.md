@@ -18,12 +18,12 @@
 **JSTL e TagLib**
 - [x] forEach
 - [x] if
-- [ ] Template com cabeçalho e rodapé
+- [x] Template com cabeçalho e rodapé
 
 **JavaScript**
-- [ ] Requisição AJAX
-- [ ] Armazenamento no LocalStorage
-- [ ] Uso de plugin JQuery
+- [x] Requisição AJAX
+- [x] Armazenamento no LocalStorage
+- [x] Uso de plugin JQuery
 
 **JPA**
 - [ ] No mínimo 2 entidades

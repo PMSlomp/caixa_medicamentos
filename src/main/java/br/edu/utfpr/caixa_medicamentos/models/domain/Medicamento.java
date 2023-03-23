@@ -1,4 +1,4 @@
-package br.edu.utfpr.models;
+package br.edu.utfpr.caixa_medicamentos.models.domain;
 
 import java.util.ArrayList;
 import java.util.Date;

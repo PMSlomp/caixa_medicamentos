@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-  erro 404
+  <img src="assets/resources/img/404.png"/>
 </body>
 </html>

@@ -1,31 +1,28 @@
-package br.edu.utfpr.controller;
+package br.edu.utfpr.caixa_medicamentos.controller;
 
-import br.edu.utfpr.models.Medicamento;
+import br.edu.utfpr.caixa_medicamentos.models.domain.Medicamento;
 
-import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 @WebServlet(name = "TempoVencimento", value = "/tempo")
 public class TempoVencimento extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         calculaTempo(request, response);
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         calculaTempo(request, response);
     }
 
-    private void calculaTempo(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void calculaTempo(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Medicamento med = (Medicamento) request.getAttribute("medicamento");
 
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Date agora = new Date();
         long tempo = Math.abs(agora.getTime() - med.getVencimento().getTime());
         long dias = TimeUnit.DAYS.convert(tempo, TimeUnit.MILLISECONDS);

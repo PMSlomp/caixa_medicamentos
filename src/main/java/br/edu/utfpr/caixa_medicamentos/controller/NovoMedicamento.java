@@ -1,6 +1,7 @@
-package br.edu.utfpr.controller;
+package br.edu.utfpr.caixa_medicamentos.controller;
 
-import br.edu.utfpr.models.*;
+import br.edu.utfpr.caixa_medicamentos.models.domain.Medicamento;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

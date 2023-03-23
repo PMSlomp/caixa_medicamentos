@@ -1,4 +1,4 @@
-package br.edu.utfpr;
+package br.edu.utfpr.caixa_medicamentos;
 
 import javax.servlet.*;
 import javax.servlet.http.*;

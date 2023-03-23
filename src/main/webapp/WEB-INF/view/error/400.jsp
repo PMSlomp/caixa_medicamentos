@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-    erro 400
+    <img src="assets/resources/img/400.png"/>
 </body>
 </html>
