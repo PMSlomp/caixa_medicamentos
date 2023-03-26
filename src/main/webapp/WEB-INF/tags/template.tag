@@ -19,6 +19,9 @@
         <li class="nav-item">
             <a class="nav-link" href="novo-med">Adicionar Medicamento</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="infos">INFOS</a>
+        </li>
     </ul>
 
     <div class="row align-items-start">

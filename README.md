@@ -8,7 +8,7 @@
 - [x] Para uma mesma rota de um Servlet, usar doGet para encaminhar a uma página e doPost para recuperar os dados da página/formulário
 
 **Cookies**
-- [ ] Cookie que dura apenas uma sessão do navegador
+- [x] Cookie que dura apenas uma sessão do navegador
 - [x] Cookie com tempo de vida customizado além de uma sessão do navegador
 
 **Controle de erros e exceção via web.xml**
@@ -27,8 +27,8 @@
 
 **JPA**
 - [ ] No mínimo 2 entidades
-- [ ] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
+- [x] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
 
 **Outros**
-- [ ] Escopo de requisição, sessão e aplicação
+- [x] Escopo de requisição, sessão e aplicação
 - [x] Expression Language (EL) para acessar os objetos de domínio (beans) da camada de modelo do MVC

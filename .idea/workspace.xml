@@ -10,29 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45541fa-44cf-4e15-86c8-d2e0e7f6828e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/CaixaControll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Caixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/libraries/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/libraries/jquery.mask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/img/400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/img/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/img/500.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/resources/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/Infos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/filter/FlashScopeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dao/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dao/MedicamentoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dto/MedicamentoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/mapper/MedicamentoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/service/AbstractService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/service/MedicametoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/util/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/util/JPAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/infos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/Ola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/Ola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controller/ListaMedicamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/ListaMedicamentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controller/NovoMedicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovoMedicamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controller/TempoVencimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/TempoVencimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/models/Medicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Medicamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/400.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/400.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/servidor500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/error/servidor500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/ListaMedicamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/ListaMedicamentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovoMedicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovoMedicamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/TempoVencimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/TempoVencimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Caixa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Medicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Medicamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaMed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaMed.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novoMedicamento.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novoMedicamento.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,24 +78,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pmslo/Documents/0-Estudos/UTFPR_2023/Java/caixa_medicamentos/src/main/webapp/assets/resources/img",
+    "last_opened_file_path": "C:/Users/pmslo/Documents/0-Estudos/UTFPR_2023/Java/caixa_medicamentos/src/main/webapp/WEB-INF/view",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\java\br\edu\utfpr\caixa_medicamentos\filter" />
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\assets\resources\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\resources\META-INF" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\resources" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\resources" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src" />
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\META-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.utfpr.caixa_medicamentos.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat Smart 9">
@@ -221,11 +231,25 @@
       <updated>1679160553697</updated>
       <workItem from="1679160554974" duration="26000" />
       <workItem from="1679160701526" duration="17816000" />
-      <workItem from="1679610817230" duration="705000" />
+      <workItem from="1679610817230" duration="1126000" />
+      <workItem from="1679849814581" duration="11182000" />
+      <workItem from="1679861129342" duration="1547000" />
+      <workItem from="1679862689814" duration="6639000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
