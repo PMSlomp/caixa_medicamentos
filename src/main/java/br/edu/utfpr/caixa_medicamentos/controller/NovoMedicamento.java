@@ -35,6 +35,7 @@ public class NovoMedicamento extends HttpServlet {
         String nomeMed = request.getParameter("nome");
         String tipoMed = request.getParameter("tipo");
         String vencMed = request.getParameter("vencimento");
+        String caixa = request.getParameter("caixa");
 
         Date datMed;
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -51,7 +52,7 @@ public class NovoMedicamento extends HttpServlet {
             getServletContext().setAttribute("medicamentos", medApp);
         }
 
-        Medicamento med = new Medicamento(nomeMed, tipoMed, datMed);
+        Medicamento med = new Medicamento(nomeMed, tipoMed, datMed, caixa);
         //ESCOPO DE REQUISIÇÃO
         request.setAttribute("flash.med", med);
 

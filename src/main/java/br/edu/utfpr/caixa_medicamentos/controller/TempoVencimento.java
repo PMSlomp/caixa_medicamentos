@@ -27,9 +27,15 @@ public class TempoVencimento extends HttpServlet {
         Medicamento med = (Medicamento) request.getAttribute("flash.med");
 
         Date agora = new Date();
-        long tempo = Math.abs(agora.getTime() - med.getVencimento().getTime());
-        long dias = TimeUnit.DAYS.convert(tempo, TimeUnit.MILLISECONDS);
-
+        long dias;
+        if(agora.getTime() >= med.getVencimento().getTime()) {
+            dias = 0;
+        }
+        else {
+            long tempo = Math.abs(med.getVencimento().getTime() - agora.getTime());
+            System.out.println(tempo);
+            dias = TimeUnit.DAYS.convert(tempo, TimeUnit.MILLISECONDS);
+        }
 
         //ESCOPO DE APLICAÇÃO
         Integer counterApplication = (Integer) getServletContext().getAttribute(Constants.COUNTER_APPLICATION);

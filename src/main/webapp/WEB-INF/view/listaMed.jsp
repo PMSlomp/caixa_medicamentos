@@ -17,6 +17,7 @@
               <th>nome</th>
               <th>tipo</th>
               <th>vencimento</th>
+              <th>caixa</th>
             </tr>
             <c:forEach items="${ medicamentos }" var="medicamento">
               <tr>
@@ -24,13 +25,14 @@
                 <td>${ medicamento.getNome() }</td>
                 <td>${ medicamento.getTipo() }</td>
                 <td><fmt:formatDate value="${ medicamento.getVencimento() }" pattern="dd/MM/yyyy"/></td>
+                <td>${ medicamento.getCaixa() }</td>
               </tr>
             </c:forEach>
           </table>
         </c:if>
 
         <c:if test="${ empty medicamentos}">
-          Caixa vazia
+          <h2>Caixa vazia</h2>
         </c:if>
 
   </jsp:body>

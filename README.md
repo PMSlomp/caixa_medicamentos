@@ -26,7 +26,7 @@
 - [x] Uso de plugin JQuery
 
 **JPA**
-- [ ] No mínimo 2 entidades
+- [x] No mínimo 2 entidades
 - [x] Operações de CRUD (apenas CREATE/INSERT e READ/SELECT).
 
 **Outros**

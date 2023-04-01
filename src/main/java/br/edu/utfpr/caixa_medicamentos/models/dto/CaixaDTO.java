@@ -6,13 +6,7 @@ import lombok.NonNull;
 import java.util.Date;
 
 @Data
-public class MedicamentoDTO {
+public class CaixaDTO {
     @NonNull
     private String nome;
-    @NonNull
-    private String tipo;
-    @NonNull
-    private Date vencimento;
-    @NonNull
-    private String caixa;
 }

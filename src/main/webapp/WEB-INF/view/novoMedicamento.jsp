@@ -25,7 +25,7 @@
 
       <div class="col-md-3">
         <label for="select-caixa" class="form-label">Caixa</label>
-        <select id="select-caixa" class="form-select">
+        <select id="select-caixa" class="form-select" name="caixa">
           <option value="" disabled selected>Escolha a caixa para armazenar</option>
         </select>
       </div>
@@ -45,7 +45,8 @@
         $.get('caixas', function(data) {
           let $select = $('#select-caixa');
           $.each(data, function(index, item) {
-            $('<option>').val(index).text(item).appendTo($select);
+            console.log(item.nome)
+            $('<option>').val(item.nome).text(item.nome).appendTo($select);
           });
         });
 

@@ -10,29 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b45541fa-44cf-4e15-86c8-d2e0e7f6828e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/Infos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/filter/FlashScopeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dao/AbstractDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dao/MedicamentoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dto/MedicamentoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/mapper/MedicamentoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/service/AbstractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/service/MedicametoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/util/JPAUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/infos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovaCaixa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dao/CaixaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dto/CaixaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/mapper/CaixaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/service/CaixaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novaCaixa.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/CaixaControll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/CaixaControll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/ListaMedicamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/ListaMedicamentos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovoMedicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/NovoMedicamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/TempoVencimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/controller/TempoVencimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Caixa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Caixa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Medicamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/domain/Medicamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dto/MedicamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/dto/MedicamentoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/mapper/MedicamentoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/caixa_medicamentos/models/mapper/MedicamentoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/template.tag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaMed.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listaMed.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novoMedicamento.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/novoMedicamento.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +71,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/pmslo/Documents/0-Estudos/UTFPR_2023/Java/caixa_medicamentos/src/main/webapp/WEB-INF/view",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pmslo/Documents/0-Estudos/UTFPR_2023/Java/caixa_medicamentos/src/main/webapp/WEB-INF/view&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\WEB-INF\view" />
@@ -98,13 +97,17 @@
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\assets\resources\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\resources\META-INF" />
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\resources" />
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\resources" />
       <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src" />
-      <recent name="C:\Users\pmslo\Documents\0-Estudos\UTFPR_2023\Java\caixa_medicamentos\src\main\webapp\META-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.edu.utfpr.caixa_medicamentos.models.mapper" />
+      <recent name="br.edu.utfpr.caixa_medicamentos.models.dto" />
+      <recent name="br.edu.utfpr.caixa_medicamentos.models.dao" />
+      <recent name="br.edu.utfpr.caixa_medicamentos.service" />
       <recent name="br.edu.utfpr.caixa_medicamentos.controller" />
     </key>
   </component>
@@ -234,7 +237,8 @@
       <workItem from="1679610817230" duration="1126000" />
       <workItem from="1679849814581" duration="11182000" />
       <workItem from="1679861129342" duration="1547000" />
-      <workItem from="1679862689814" duration="6639000" />
+      <workItem from="1679862689814" duration="6729000" />
+      <workItem from="1680367069283" duration="5168000" />
     </task>
     <servers />
   </component>

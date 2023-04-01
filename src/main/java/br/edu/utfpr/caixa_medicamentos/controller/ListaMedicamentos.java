@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/lista-med")
+@WebServlet(name = "lista-med", urlPatterns = {"/", "/lista-med"})
 public class ListaMedicamentos extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
