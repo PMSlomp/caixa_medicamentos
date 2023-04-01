@@ -1,5 +1,7 @@
 # Caixa de Medicamentos
 
+**Figma**: https://www.figma.com/file/zQACArH9LJkaUM1EqVN1jG/CaixaMedicamentos?node-id=0%3A1&t=5vtW5UWflNVRT1kY-1 
+
 ## Checklist
 
 **Encaminhamento e redirecionamento**
