@@ -6,7 +6,7 @@
 <!--  </welcome-file-list>-->
 
   <error-page>
-          <location>/WEB-INF/view/error/servidor500.jsp</location>
+    <location>/WEB-INF/view/error/servidor500.jsp</location>
   </error-page>
   <error-page>
     <error-code>404</error-code>

@@ -36,7 +36,8 @@
       </div>
     </form>
 
-    <script src="assets/libraries/jquery-2.2.4.min.js"></script
+<%--    <script src="webapp/assets/libraries/jquery-2.2.4.min.js"></script>--%>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="assets/libraries/jquery.mask.min.js"></script>
     <script>
       window.onload = function () {
